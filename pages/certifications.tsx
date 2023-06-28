@@ -5,12 +5,12 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Certifications() {
   return (
     <>
       <Head>
-        <title>CV</title>
-        <meta name="description" content="CV" />
+        <title>Certifications</title>
+        <meta name="description" content="Certifications" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

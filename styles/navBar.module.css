@@ -1,0 +1,25 @@
+.headerContainer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 2px -2px gray;
+  opacity: 1;
+  background-color: #d5f0f6;
+}
+.headerLinkContainer {
+  display: flex;
+  text-transform: capitalize;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+}
+.headerLinkContainer li {
+  list-style-type: none;
+  color: #434a54;
+  opacity: 1;
+}
+.navbarLinkActive {
+  color: #2a9dd2;
+}
+
+
