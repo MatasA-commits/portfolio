@@ -1,0 +1,9 @@
+.headerBorder {
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.infoTitle {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #4444fa;
+}

@@ -1,11 +1,12 @@
 .headerContainer {
-  height: 80px;
+  height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0 4px 2px -2px gray;
   opacity: 1;
   background-color: #d5f0f6;
+  margin-bottom: 2rem;
 }
 .headerLinkContainer {
   display: flex;

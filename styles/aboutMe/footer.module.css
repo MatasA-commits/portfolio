@@ -1,0 +1,9 @@
+.linkContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.link {
+  color: #4444fa;
+}
