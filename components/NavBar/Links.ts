@@ -5,7 +5,7 @@ export type LinkTypes = {
 
 const Links = [
   {
-    name: 'About me',
+    name: 'Main page',
     url: '/'
   },
 ];
