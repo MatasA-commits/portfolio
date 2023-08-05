@@ -4,11 +4,32 @@
 
 .headerBorder {
   border-bottom: 1px solid #d0d0d0;
-  margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .infoTitle {
   font-size: 1rem;
   text-transform: uppercase;
   color: #4444fa;
+  margin-bottom: 0.5rem;
+}
+
+.infoBox {
+  margin-left: 1.5rem;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.learningContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  border-left: 1px solid #d0d0d0;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
 }

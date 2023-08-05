@@ -1,11 +1,11 @@
-import styles from '@/styles/aboutMe/skills.module.css'
+import styles from '@/styles/mainPage/skills.module.css'
 import indexStyles from '@/styles/index.module.css'
 
 const Skills = () => {
   return (
     <div className={styles.container}>
       <h3 className={indexStyles.infoTitle}>Relevant skills</h3>
-      <div>
+      <div className={indexStyles.infoBox}>
         <ul className={styles.skillList}>
           <li>Next.js</li>
           <li>React.js</li>

@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/index.module.css'
-import Header from '@/components/aboutMe/header'
-import Footer from '@/components/aboutMe/footer'
-import Skills from '../components/aboutMe/skills';
+import Header from '@/components/mainPage/header'
+import Footer from '@/components/mainPage/footer'
+import Skills from '../components/mainPage/skills';
+import Education from '../components/mainPage/education';
+import Languages from '../components/mainPage/languages';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,8 +23,14 @@ export default function Home() {
           <div className={styles.headerBorder}>
             <Header/>
           </div>
+          <div className={styles.infoContainer}>
+            <Skills />
+            <div className={styles.learningContainer}>
+              <Education />
+              <Languages />
+            </div>
+          </div>
           
-          <Skills />
           <Footer />
         </div>
       </main>

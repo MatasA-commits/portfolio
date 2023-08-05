@@ -8,10 +8,6 @@ const Links = [
     name: 'About me',
     url: '/'
   },
-  {
-    name: 'Certifications',
-    url: '/certifications'
-  },
 ];
 
 export default Links;

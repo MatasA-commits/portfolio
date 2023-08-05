@@ -1,0 +1,6 @@
+.languages {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  font-weight: 500;
+}

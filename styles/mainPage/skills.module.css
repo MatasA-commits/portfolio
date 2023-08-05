@@ -1,11 +1,11 @@
 .container {
-  padding-left: 10rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   
 }
 
 .skillList{
-  margin-left: 2rem;
-  list-style-type: circle;
+  list-style-type: none;
+  font-weight: 500;
 }
