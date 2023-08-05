@@ -3,7 +3,7 @@ import indexStyles from '@/styles/index.module.css'
 
 const Skills = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <h3 className={indexStyles.infoTitle}>Relevant skills</h3>
       <div>
         <ul className={styles.skillList}>
