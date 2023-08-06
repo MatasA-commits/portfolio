@@ -1,7 +1,7 @@
 .headerContainer {
-  height: 4rem;
+  padding: 1rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   box-shadow: 0 4px 2px -2px gray;
   opacity: 1;
@@ -13,6 +13,24 @@
   text-transform: capitalize;
   gap: 1.5rem;
   font-size: 1.2rem;
+}
+
+.mediaContainer {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.mediaLogo {
+  display: flex;
+  background-color: #f4f4f4;
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 0.1rem;
+  border-radius: 5px;
+}
+
+.mediaLogo:hover {
+  background-color: #eae5ff;
 }
 
 

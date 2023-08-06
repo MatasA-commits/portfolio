@@ -2,7 +2,6 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/index.module.css'
 import Header from '@/components/mainPage/header'
-import Footer from '@/components/mainPage/footer'
 import Skills from '../components/mainPage/skills';
 import Education from '../components/mainPage/education';
 import Languages from '../components/mainPage/languages';
@@ -30,8 +29,6 @@ export default function Home() {
               <Languages />
             </div>
           </div>
-          
-          <Footer />
         </div>
       </main>
     </>
