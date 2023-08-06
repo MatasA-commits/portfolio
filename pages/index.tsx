@@ -5,6 +5,7 @@ import Header from '@/components/mainPage/header'
 import Skills from '../components/mainPage/skills';
 import Education from '../components/mainPage/education';
 import Languages from '../components/mainPage/languages';
+import Certificate from '../components/mainPage/certificate';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,6 +30,7 @@ export default function Home() {
               <Languages />
             </div>
           </div>
+          {/* <Certificate /> */}
         </div>
       </main>
     </>

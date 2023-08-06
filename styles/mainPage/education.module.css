@@ -2,4 +2,9 @@
   display: flex;
   flex-direction: column-reverse;
   gap: 0.5rem;
+  font-weight: 500;
+}
+
+.educationTitle {
+  font-weight: 600;
 }
