@@ -1,8 +1,8 @@
 .navBarLink {
   list-style-type: none;
-  color: #434a54;
+  color: #00FFFF;
   opacity: 1;
 }
 .navBarLinkActive {
-  color: #2a9dd2;
+  color: #FF00FF;
 }

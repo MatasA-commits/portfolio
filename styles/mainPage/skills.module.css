@@ -10,7 +10,7 @@
   font-weight: 500;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 776px) {
   .container {
     padding: 1rem;
   }

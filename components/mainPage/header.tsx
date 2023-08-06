@@ -1,5 +1,3 @@
-import Image from "next/image";
-import profileImg from "@/images/profile.jpg"
 import styles from '@/styles/mainPage/header.module.css'
 
 const Header = () => {
