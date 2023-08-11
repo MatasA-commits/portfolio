@@ -30,7 +30,7 @@ export default function ContactForm() {
               < textarea name='message' className={`${inter.className} ${styles.textArea}`} />
            </div>
            <div className={styles.submitBtnContainer}>
-            < input className={styles.submitBtn} type='submit'/>
+            < input className={styles.submitBtn} type='submit' value='Submit'/>
            </div>
               
   </form >
