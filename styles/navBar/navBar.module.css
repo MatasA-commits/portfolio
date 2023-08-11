@@ -20,6 +20,7 @@
 .mediaContainer {
   display: flex;
   gap: 0.5rem;
+  align-items: center;
 }
 
 .mediaLogo {
@@ -34,6 +35,24 @@
 .mediaLogo:hover {
   background-color: #FF00FF;
 }
+
+.contactMeBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  padding: 0.3rem;
+  border-radius: 5px;
+  background-color: #00FFFF;
+  font-weight: 600;
+  border: none;
+}
+
+.contactMeBtn:hover {
+  cursor: pointer;
+  background-color: #FF00FF;
+}
+
 
 
 

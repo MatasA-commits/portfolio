@@ -5,8 +5,12 @@ export type LinkTypes = {
 
 const Links = [
   {
-    name: 'Main page',
+    name: 'Main Page',
     url: '/'
+  },
+  {
+    name: 'Contact',
+    url: '/contactForm'
   },
 ];
 
