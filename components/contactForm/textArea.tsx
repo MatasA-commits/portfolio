@@ -1,4 +1,7 @@
 import styles from "../../styles/contactForm/contactForm.module.css";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 interface TextAreaProps extends React.InputHTMLAttributes<HTMLTextAreaElement> {
   id: string;
@@ -27,7 +30,7 @@ const TextArea = ({
         name={name}
         rows={5}
         placeholder={placeholder}
-        className={`${styles.inputGroup} ${styles.textArea}`}
+        className={`${inter.className} ${styles.inputGroup} ${styles.textArea}`}
       ></textarea>
       {error && <p className={styles.error}>*{errorMessage}</p>}
     </div>
