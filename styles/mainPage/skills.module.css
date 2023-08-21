@@ -3,10 +3,9 @@
   display: flex;
   flex-direction: column;
   margin: 0.5rem 0;
-  
 }
 
-.skillList{
+.skillList {
   list-style-type: none;
   font-weight: 500;
 }

@@ -1,7 +1,5 @@
-import styles from '@/styles/mainPage/certificate.module.css'
-import indexStyles from '@/styles/index.module.css'
-
-
+import styles from "@/styles/mainPage/certificate.module.css";
+import indexStyles from "@/styles/index.module.css";
 
 const Certificate = () => {
   return (
@@ -9,6 +7,6 @@ const Certificate = () => {
       <h3 className={indexStyles.infoTitle}>Certificate</h3>
     </div>
   );
-}
+};
 
 export default Certificate;

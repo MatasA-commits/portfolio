@@ -1,13 +1,13 @@
-import Head from 'next/head'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/index.module.css'
-import Header from '@/components/mainPage/header'
-import Skills from '../components/mainPage/skills';
-import Education from '../components/mainPage/education';
-import Languages from '../components/mainPage/languages';
-import Certificate from '../components/mainPage/certificate';
+import Head from "next/head";
+import { Inter } from "next/font/google";
+import styles from "@/styles/index.module.css";
+import Header from "@/components/mainPage/header";
+import Skills from "../components/mainPage/skills";
+import Education from "../components/mainPage/education";
+import Languages from "../components/mainPage/languages";
+import Certificate from "../components/mainPage/certificate";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
       <main className={`${inter.className} ${styles.container}`}>
         <div>
           <div className={styles.headerBorder}>
-            <Header/>
+            <Header />
           </div>
           <div className={styles.infoContainer}>
             <Skills />
@@ -34,5 +34,5 @@ export default function Home() {
         </div>
       </main>
     </>
-  )
+  );
 }

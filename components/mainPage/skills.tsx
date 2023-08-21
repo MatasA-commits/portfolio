@@ -1,5 +1,5 @@
-import styles from '@/styles/mainPage/skills.module.css'
-import indexStyles from '@/styles/index.module.css'
+import styles from "@/styles/mainPage/skills.module.css";
+import indexStyles from "@/styles/index.module.css";
 
 const Skills = () => {
   return (
@@ -18,6 +18,6 @@ const Skills = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Skills;

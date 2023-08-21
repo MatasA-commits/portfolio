@@ -1,4 +1,4 @@
-import styles from '@/styles/mainPage/header.module.css'
+import styles from "@/styles/mainPage/header.module.css";
 
 const Header = () => {
   return (
@@ -8,11 +8,10 @@ const Header = () => {
           <h2 className={styles.name}>Matas Aleliūnas</h2>
           <p className={styles.developerType}>Front-end developer</p>
         </div>
-        <div>
-        </div>
+        <div></div>
       </div>
     </div>
   );
-}
+};
 
 export default Header;

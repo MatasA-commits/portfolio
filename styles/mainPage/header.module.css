@@ -5,13 +5,13 @@
   padding: 2rem;
 }
 
-.name, .developerType {
-  color: #FF00FF;
+.name,
+.developerType {
+  color: #ff00ff;
 }
 
 .name {
   font-size: 2rem;
-  
 }
 .developerType {
   font-size: 1.3rem;

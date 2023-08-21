@@ -1,14 +1,20 @@
 # Portfolio project - under development
+
 ## Preveiw
+
 Project deployed on Vercel, to open click [here](https://portfolio-two-sigma-63.vercel.app/).
 
 ## View Code
+
 To view code in online editor click [here](https://github.dev/MatasA-commits/portfolio).
+
 ## System requirements
-* [Node.js](https://nodejs.org/en/) v16 or later
+
+- [Node.js](https://nodejs.org/en/) v16 or later
+
 ## Getting Started
 
-Install dependencies: 
+Install dependencies:
 
 ```bash
 npm i
@@ -26,7 +32,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Building project
 
-Install dependencies: 
+Install dependencies:
 
 ```bash
 npm i

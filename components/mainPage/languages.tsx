@@ -1,5 +1,5 @@
-import styles from '@/styles/mainPage/languages.module.css'
-import indexStyles from '@/styles/index.module.css'
+import styles from "@/styles/mainPage/languages.module.css";
+import indexStyles from "@/styles/index.module.css";
 
 const Languages = () => {
   return (
@@ -9,9 +9,8 @@ const Languages = () => {
         <p>Lithuanian (Native)</p>
         <p>English (Freely)</p>
       </div>
-      
     </div>
   );
-}
+};
 
 export default Languages;
