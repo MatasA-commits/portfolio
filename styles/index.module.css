@@ -35,6 +35,10 @@
   margin: 0.5rem 0;
 }
 
+.projectsContainer {
+  margin-top: 1rem;
+}
+
 @media only screen and (max-width: 850px) {
   .container {
     padding: 0 2rem;

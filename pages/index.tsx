@@ -6,6 +6,7 @@ import Skills from "../components/mainPage/skills";
 import Education from "../components/mainPage/education";
 import Languages from "../components/mainPage/languages";
 import Certificate from "../components/mainPage/certificate";
+import Projects from '../components/mainPage/projects';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,7 +31,9 @@ export default function Home() {
               <Languages />
             </div>
           </div>
-          {/* <Certificate /> */}
+          <div className={styles.projectsContainer}>
+            <Projects />
+          </div>
         </div>
       </main>
     </>

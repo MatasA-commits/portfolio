@@ -8,7 +8,6 @@ const Header = () => {
           <h2 className={styles.name}>Matas Aleliūnas</h2>
           <p className={styles.developerType}>Front-end developer</p>
         </div>
-        <div></div>
       </div>
     </div>
   );
