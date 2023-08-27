@@ -6,14 +6,13 @@
 }
 
 .projectsContainer {
-  margin-top: 0.5rem;
   display: flex;
   gap: 1rem;
+  margin-top: 0.5rem;
 }
 
 .projectLink {
   padding: 1rem;
-
   border-radius: 5px;
   color: black;
   background-color: #00ffff;
