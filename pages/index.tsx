@@ -6,7 +6,7 @@ import Skills from "../components/mainPage/skills";
 import Education from "../components/mainPage/education";
 import Languages from "../components/mainPage/languages";
 import Certificate from "../components/mainPage/certificate";
-import Projects from '../components/mainPage/projects';
+import Projects from "@/components/mainPage/projects/Projects";
 
 const inter = Inter({ subsets: ["latin"] });
 
