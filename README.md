@@ -1,6 +1,6 @@
 # Portfolio project - under development
 
-## Preveiw
+## Preview
 
 Project deployed on Vercel, to open click [here](https://portfolio-two-sigma-63.vercel.app/).
 
