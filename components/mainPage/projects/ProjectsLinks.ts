@@ -14,7 +14,7 @@ const ProjectsLinks = [
   },
   {
     name: "Crypto value app",
-    url: "https://crypto-dcq4kwz61-matasa-commits.vercel.app/",
+    url: "https://crypto-app-ten-pi.vercel.app/",
     stack: "React.js, Node.js",
     state: "Under development",
   },
