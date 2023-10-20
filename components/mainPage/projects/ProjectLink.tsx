@@ -10,7 +10,6 @@ const NavBarLink = ({ name, url, stack, state }: ProjectTypes) => {
           <h4>{name}</h4>
           <p className={styles.projectStack}>{stack}</p>
           <p>State: {state}</p>
-          <p>State: {state}</p>
         </div>
       </Link>
     </div>
